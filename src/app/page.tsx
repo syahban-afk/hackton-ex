@@ -6,6 +6,7 @@ import Main from "@/components/mainhero";
 import MainSection from "@/components/herosection";
 import Card from "@/components/card";
 import Comment from "@/components/comment"
+import Wrapper  from "@/components/wrapper";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <MainSection />
       <Card />
       <Comment />
+      <Wrapper />
     </div>
   );
 }

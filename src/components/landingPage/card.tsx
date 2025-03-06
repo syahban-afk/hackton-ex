@@ -2,7 +2,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import TitleSection from "@/components/mini";
 import { useState } from "react";
-import Image from "next/image";
 
 const categories = [
   {

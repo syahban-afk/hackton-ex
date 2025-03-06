@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import TitleSection from "@/components/mini";
 
-export default function Main(props: any) {
+export default function Main() {
   return (
     <div className="container-xl">
       <div className="text-center rounded-5 shadow-2xl bg-gradient-to-b from-sky-700 to-green-700 min-h-76 place-content-center ">

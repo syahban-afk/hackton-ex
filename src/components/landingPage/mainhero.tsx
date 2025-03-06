@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import TitleSection from "@/components/mini";
 
-export default function Main(props: any) {
+export default function Main() {
   return (
     <div className="container-xl py-3">
       <main className="row p-auto">

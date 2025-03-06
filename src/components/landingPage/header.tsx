@@ -3,7 +3,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TitleSection from "@/components/mini";
 
-export default function Headers(props: any) {
+export default function Headers() {
   const [hover, setHover] = useState(false);
   return (
     <div className="sticky-top">

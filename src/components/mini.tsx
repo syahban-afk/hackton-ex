@@ -11,10 +11,10 @@ export default function Title(props: any) {
     <div>
       <p className={props.titleClass}>{props.title}</p>
       <p className={props.desClass}>{props.description}</p>
-      <div className={props.btnClass}>
+      <button type="submit" className={props.btnClass}>
         {props.button}
         <i className={props.btnIcons}></i>
-      </div>
+      </button>
       {imageSrc && (
         <Image
           src={imageSrc}

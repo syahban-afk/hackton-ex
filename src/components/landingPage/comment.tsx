@@ -97,7 +97,6 @@ export default function Main() {
               key={testimonial.id}
               className="bg-white rounded-lg shadow-lg p-6"
             >
-              {/* Star Rating */}
               <div className="flex justify-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <span key={i} className="text-yellow-400 text-xl">
@@ -107,7 +106,7 @@ export default function Main() {
               </div>
 
               <TitleSection
-                desClass="text-center text-gray-700 text-base mb-6 h-32 overflow-auto"
+                desClass="text-center text-gray-700 text-base mb-6 h-40 overflow-auto"
                 description={testimonial.comment}
               />
 
@@ -140,6 +139,8 @@ export default function Main() {
           ))}
         </div>
       </div>
+      <br />
+      <br /> 
     </div>
   );
 }

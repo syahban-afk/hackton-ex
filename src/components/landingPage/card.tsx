@@ -108,7 +108,6 @@ export default function Main() {
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 p-4">
-        {/* Sidebar Categories */}
         <div className="md:w-1/4">
           {categories.map((cat) => (
             <button
@@ -135,12 +134,11 @@ export default function Main() {
           ))}
         </div>
 
-        {/* Campaign Cards Grid */}
         <div className="md:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredCampaigns.map((campaign) => (
             <div
               key={campaign.id}
-              className="bg-white rounded-lg overflow-visible shadow"
+              className="bg-white rounded-lg overflow-visible shadow max-h-90"
             >
               <TitleSection
                 imagesrc={campaign.image}

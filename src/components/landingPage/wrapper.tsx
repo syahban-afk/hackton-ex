@@ -12,7 +12,7 @@ export default function Main() {
           description="Yuk bergabung dalam setiap program kebaikan Bazma"
           desClass="text-white h5 m-4"
           button="Daftar Volunteer"
-          btnClass="text-white bg-rose-600 rounded-5 p-2 "
+          btnClass="text-white bg-rose-600 rounded-5 p-2 btn btn-danger"
         />
       </div>
       <br />

@@ -64,7 +64,7 @@ const testimonials = [
 export default function Main() {
   const [currentPage, setCurrentPage] = useState(0);
   const cardsPerPage = 3;
-  const totalPages = Math.ceil(testimonials.length / cardsPerPage);
+  // const totalPages = Math.ceil(testimonials.length / cardsPerPage);
 
   // const nextPage = () => {
   //   setCurrentPage((prev) => (prev === totalPages - 1 ? 0 : prev + 1));

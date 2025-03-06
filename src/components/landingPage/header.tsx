@@ -18,7 +18,7 @@ export default function Headers() {
       <header className="border-bottom bg-slate-50">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 container-xl">
           <div className="col-md-3 mb-2 mb-md-0">
-            <a href="/" className="place-content-center my-auto">
+            <a href="#" className="place-content-center my-auto">
               <TitleSection
                 imagesrc="/logo.png"
                 imgClass="img-fluid"
